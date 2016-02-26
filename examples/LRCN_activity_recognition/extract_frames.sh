@@ -16,3 +16,4 @@ echo $BNAME
 mkdir -m 755 $BNAME
 
 ffmpeg -i $1 -r $FRAMES $BNAME/$BNAME.%4d.jpg
+
